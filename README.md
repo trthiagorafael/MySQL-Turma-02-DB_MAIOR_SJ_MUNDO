@@ -52,6 +52,10 @@ Representação das entidades do negócio sem preocupação com implementação.
 Conversão do modelo conceitual para um modelo relacional.
 
 <p align="center">
+  <img src="DER MAIOR SÃO JOÃO DO MUNDO.png" alt="DER DB_MAIOR_SJ_MUNDO,png" width="900">
+</p>
+
+<p align="center">
   <img src="DER MAIOR SÃO JOÃO DO MUNDO.png" alt="DER Conceitual" width="900">
 </p>
 
