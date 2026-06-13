@@ -1,0 +1,60 @@
+USE db_maior_sj_mundo;
+
+-- SET foreign_key_checks = 0;
+-- 
+-- TRUNCATE TABLE tb_evento;
+-- 
+-- SET foreign_key_checks = 1;
+
+INSERT INTO tb_evento (nome, data_inicio, data_final, local, cidade, estado, capacidade_total, id_organizador)
+VALUES
+('O Maior São João do Mundo', '2026-05-29', '2026-07-05', 'Parque do Povo', 'Campina Grande', 'PB', 100000, 1),
+('Carnaval do Rio de Janeiro', '2026-02-13', '2026-02-18', 'Sambódromo', 'Rio de Janeiro', 'RJ', 72000, 2),
+('Oktoberfest Blumenau', '2026-10-07', '2026-10-25', 'Parque Vila Germânica', 'Blumenau', 'SC', 40000, 3),
+('Festival de Parintins', '2026-06-26', '2026-06-28', 'Bumbódromo', 'Parintins', 'AM', 35000, 4),
+('Festa do Peão de Barretos', '2026-08-20', '2026-08-30', 'Parque do Peão', 'Barretos', 'SP', 50000, 5),
+('Réveillon de Copacabana', '2026-12-31', '2027-01-01', 'Praia de Copacabana', 'Rio de Janeiro', 'RJ', 150000, 6),
+('Festival de Inverno de Garanhuns', '2026-07-10', '2026-07-26', 'Praça Mestre Dominguinhos', 'Garanhuns', 'PE', 30000, 7),
+('São João de Caruaru', '2026-06-01', '2026-06-30', 'Pátio de Eventos', 'Caruaru', 'PE', 80000, 8),
+('Micareta de Feira', '2026-04-23', '2026-04-26', 'Circuito Maneca Ferreira', 'Feira de Santana', 'BA', 60000, 9),
+('Natal Luz', '2026-10-22', '2027-01-17', 'Centro de Eventos', 'Gramado', 'RS', 25000, 10),
+('Rock in Rio', '2026-09-11', '2026-09-20', 'Cidade do Rock', 'Rio de Janeiro', 'RJ', 100000, 11),
+('Lollapalooza Brasil', '2026-03-20', '2026-03-22', 'Autódromo de Interlagos', 'São Paulo', 'SP', 90000, 12),
+('The Town', '2026-09-05', '2026-09-13', 'Autódromo de Interlagos', 'São Paulo', 'SP', 100000, 13),
+('Festival de Verão Salvador', '2026-01-24', '2026-01-25', 'Parque de Exposições', 'Salvador', 'BA', 50000, 14),
+('VillaMix Festival', '2026-08-15', '2026-08-16', 'Arena Goiânia', 'Goiânia', 'GO', 45000, 15),
+('João Rock', '2026-06-13', '2026-06-13', 'Parque Permanente', 'Ribeirão Preto', 'SP', 60000, 16),
+('Festival de Jazz e Blues', '2026-07-18', '2026-07-26', 'Centro Histórico', 'Guaramiranga', 'CE', 10000, 17),
+('Festival Psica', '2026-12-11', '2026-12-13', 'Mangueirão', 'Belém', 'PA', 30000, 18),
+('Planeta Atlântida', '2026-01-30', '2026-01-31', 'Praia de Atlântida', 'Xangri-lá', 'RS', 45000, 19),
+('Festival de Cinema de Gramado', '2026-08-14', '2026-08-22', 'Palácio dos Festivais', 'Gramado', 'RS', 5000, 20),
+('Bienal do Livro', '2026-09-03', '2026-09-13', 'Riocentro', 'Rio de Janeiro', 'RJ', 40000, 21),
+('Comic Con Experience', '2026-12-03', '2026-12-06', 'São Paulo Expo', 'São Paulo', 'SP', 120000, 22),
+('Campus Party Brasil', '2026-02-10', '2026-02-15', 'Anhembi', 'São Paulo', 'SP', 30000, 23),
+('Agrishow', '2026-04-27', '2026-05-01', 'Polo Regional', 'Ribeirão Preto', 'SP', 35000, 24),
+('Feicon', '2026-04-07', '2026-04-10', 'São Paulo Expo', 'São Paulo', 'SP', 25000, 25),
+('ExpoCrato', '2026-07-11', '2026-07-19', 'Parque de Exposições', 'Crato', 'CE', 35000, 26),
+('Vaquejada de Surubim', '2026-09-17', '2026-09-20', 'Parque J. Galdino', 'Surubim', 'PE', 30000, 27),
+('Festa do Bode Rei', '2026-06-04', '2026-06-07', 'Parque do Bode', 'Cabaceiras', 'PB', 15000, 28),
+('São João de Bananeiras', '2026-06-12', '2026-06-24', 'Centro Histórico', 'Bananeiras', 'PB', 25000, 29),
+('São João de Patos', '2026-06-19', '2026-06-23', 'Terreiro do Forró', 'Patos', 'PB', 40000, 30),
+('Festival de Parapente', '2026-11-12', '2026-11-15', 'Rampa do Pepê', 'Maturéia', 'PB', 5000, 31),
+('Festival da Cachaça', '2026-08-07', '2026-08-09', 'Praça Central', 'Areia', 'PB', 10000, 32),
+('Festa das Neves', '2026-08-01', '2026-08-05', 'Centro Histórico', 'João Pessoa', 'PB', 20000, 33),
+('Festival das Flores', '2026-09-18', '2026-09-20', 'Parque Municipal', 'Holambra', 'SP', 25000, 34),
+('Encenação da Paixão de Cristo', '2026-04-02', '2026-04-04', 'Nova Jerusalém', 'Brejo da Madre de Deus', 'PE', 100000, 35),
+('Festival Gastronômico de Tiradentes', '2026-08-21', '2026-08-30', 'Centro Histórico', 'Tiradentes', 'MG', 15000, 36),
+('Festival de Dança de Joinville', '2026-07-20', '2026-08-01', 'Centreventos Cau Hansen', 'Joinville', 'SC', 20000, 37),
+('Festival de Teatro de Curitiba', '2026-03-23', '2026-04-05', 'Diversos Teatros', 'Curitiba', 'PR', 25000, 38),
+('Festival de Inverno de Campos do Jordão', '2026-07-04', '2026-08-02', 'Auditório Cláudio Santoro', 'Campos do Jordão', 'SP', 12000, 39),
+('Festa da Uva', '2026-02-19', '2026-03-08', 'Parque de Eventos', 'Caxias do Sul', 'RS', 30000, 40),
+('Fenadoce', '2026-07-15', '2026-08-02', 'Centro de Eventos', 'Pelotas', 'RS', 25000, 41),
+('Festival de Pesca', '2026-09-10', '2026-09-13', 'Lago Municipal', 'Três Lagoas', 'MS', 12000, 42),
+('Festa Nacional do Pinhão', '2026-06-05', '2026-06-14', 'Parque Conta Dinheiro', 'Lages', 'SC', 35000, 43),
+('ExpoLondrina', '2026-04-09', '2026-04-19', 'Parque Ney Braga', 'Londrina', 'PR', 45000, 44),
+('Festival Folclórico de Olímpia', '2026-08-01', '2026-08-09', 'Recinto do Folclore', 'Olímpia', 'SP', 18000, 45),
+('Feira Nacional do Camarão', '2026-11-05', '2026-11-08', 'Centro de Convenções', 'Natal', 'RN', 12000, 46),
+('Festival das Cataratas', '2026-06-03', '2026-06-05', 'Rafain Palace Hotel', 'Foz do Iguaçu', 'PR', 10000, 47),
+('Semana Farroupilha', '2026-09-13', '2026-09-20', 'Parque Harmonia', 'Porto Alegre', 'RS', 50000, 48),
+('Festival de Quadrilhas Juninas', '2026-06-18', '2026-06-22', 'Arena Junina', 'Aracaju', 'SE', 20000, 49),
+('Festival Brasileiro da Cerveja', '2026-03-11', '2026-03-14', 'Parque Vila Germânica', 'Blumenau', 'SC', 15000, 50);
